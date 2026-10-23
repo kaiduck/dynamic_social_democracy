@@ -24,6 +24,6 @@ Unfortunately, Workers' Aid's effectiveness is dragged down by the <span style="
 - @workers_aid_joever: Unfortunate.
 
 @workers_aid_joever
-on-arrival: workers_aid = labor_strength < 40 ? (Math.floor(workers_aid * 0.8)) : (Math.floor(workers_aid * 0.9))
+on-arrival: workers_aid = (labor_strength < 40) ? (Math.floor(workers_aid * 0.8)) : (Math.floor(workers_aid * 0.9))
 
 This will continue to be a problem if our popularity continues to flag.
